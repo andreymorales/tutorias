@@ -1,0 +1,21 @@
+/* Footer (General) */
+#vfooter{
+	width:100%;
+	height:60px;
+	padding-top:5px;
+	padding-bottom:5px;
+	background-color:#999;
+	z-index:101;	
+ }
+#vfooter .container{
+	font-size:12px;
+	font-weight:bold;	
+ }
+#vfooterSeccion-1{
+	float:left;
+	width:50%;
+ }
+#vfooterSeccion-2{
+	float:right;
+	width:50%;
+ }

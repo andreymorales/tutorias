@@ -1,0 +1,58 @@
+html, body{
+	height:100%;
+	background-color: #ffffff;
+ }
+table {
+	border: 0;
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+ }
+table td {
+	text-align:left;
+	vertical-align:middle;
+	padding:1px 1px 1px 1px;
+	width:100%;
+ }
+
+.container{
+	width: auto;
+	max-width: 790px;
+	height: auto !important;
+  }
+.textCaption-1{
+	font-size:12px;
+	font-weight:bold;
+	text-align:center;
+ }
+.textCaption-2{
+	font-size:14px;
+	font-weight:bold;
+ }
+.textCaption-3{
+	font-size:12px;
+	font-weight:bold;
+ }
+
+#vwrap{
+	width:100%;
+	height: auto !important;
+	min-height: 100%;
+	/* Negative indent footer by it's height */
+	margin: 0 auto -60px;
+	z-index:100;
+ }
+#vcontainer{
+	width:auto;
+	height:auto;
+	padding:0;
+	margin:0;
+	padding-top:5%;
+	padding-bottom:5%
+ }
+#vcontainerSeccion-1{
+	padding-bottom:2.5%
+ }
+#vcontainerSeccion-2{
+	padding-top:2.5%
+ }
