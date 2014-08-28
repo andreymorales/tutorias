@@ -43,7 +43,7 @@
                 <!-- /. Header -->
 				<!-- Container -->
                 <div id="vcontainer">
-					Bienvenida
+					Datos de Bienvenida
 				</div>
                 <!-- /. Container -->
 			</div>

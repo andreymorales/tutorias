@@ -9,29 +9,30 @@ table {
 	width: 100%;
  }
 table td {
-	text-align:left;
+	text-align:right;
 	vertical-align:middle;
 	padding:1px 1px 1px 1px;
 	width:100%;
  }
+
+input[type="text"]{
+	height:20px;
+}
 
 .container{
 	width: auto;
 	max-width: 790px;
 	height: auto !important;
   }
+
 .textCaption-1{
-	font-size:12px;
-	font-weight:bold;
-	text-align:center;
- }
-.textCaption-2{
 	font-size:14px;
 	font-weight:bold;
  }
-.textCaption-3{
+.textCaption-2{
 	font-size:12px;
 	font-weight:bold;
+	padding-right:5px;
  }
 
 #vwrap{

@@ -51,7 +51,7 @@
 								<img src="./images/login/login.png" alt="Login" title="Login" class="img-responsive center-block">
 							</div>
 							<div id="vcaptionLogin">
-								<p class="textCaption-1">Para ingresar, es necesario proporcionar los siguientes datos:</p>
+								<p class="textCaptionLogin-1">Para ingresar, es necesario proporcionar los siguientes datos:</p>
 							</div>
 							<div>
 								<form id="vlogin" name="vlogin" method="post" onSubmit="return false;" style="padding:0; margin:0">
