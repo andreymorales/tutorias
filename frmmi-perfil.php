@@ -52,125 +52,127 @@
                     	<span class="textCaption-1">Mi perfil</span>
 					</div>
 					<div id="vcontainerSeccion-2">
-						<form id="vperfil" name="vperfil" method="post" onSubmit="return false;" style="padding:0; margin:0">
-						<ul id="pnbrperfil">
-							<li class="k-state-active">
-								<span class="k-link k-state-selected"><b>Datos Personales</b></span>
-                               	<table>
-									<tr>
-										<td>&nbsp;</td>
-									</tr>
-									<tr>
-										<td>
-										<table>
-											<tr>
-                                                <td style="width:16%;">
-                                                <label for="txtname" class="textCaption-2">Nombre:</label>
-                                                </td>
-                                                <td style="width:84%;">
-                                                <input type="text" id="txtname" name="txtname" maxlength="30" style="width:95%;" class="form-control" />
-                                                </td>
-											</tr>
-										</table>
-										</td>
-									</tr>
-									<tr>
-										<td>
-										<table>
-											<tr>
-                                                <td style="width:16%;">
-                                                <label for="txtfirstName" class="textCaption-2">Apellido Paterno:</label>
-                                                </td>
-                                                <td style="width:84%;">
-                                                <input type="text" id="txtfirstName" name="txtfirstName" maxlength="30" style="width:95%;" class="form-control" />
-                                                </td>
-											</tr>
-										</table>
-										</td>
-									</tr>
-									<tr>
-										<td>
-										<table>
-											<tr>
-                                                <td style="width:16%;">
-                                                <label for="txtlastName" class="textCaption-2">Apellido Materno:</label>
-                                                </td>
-                                                <td style="width:84%;">
-                                                <input type="text" id="txtlastName" name="txtlastName" maxlength="30" style="width:95%;" class="form-control" />
-                                                </td>
-											</tr>
-										</table>
-										</td>
-									</tr>
-									<tr>
-										<td>&nbsp;</td>
-									</tr>
-								</table>
-							</li>
-							<li>
-								<span><b>Datos del Centro de Trabajo</b></span>
-								<div>
-								<table>
-									<tr>
-										<td>&nbsp;</td>
-									</tr>
-									<tr>
-										<td>
-										<table>
-											<tr>
-                                                <td style="width:16%;">
-                                                <label for="txtjob" class="textCaption-2">Puesto:</label>
-                                                </td>
-                                                <td style="width:84%;">
-                                                <input type="text" id="txtjob" name="txtjob" maxlength="80" style="width:95%;" class="form-control" />
-                                                </td>
-											</tr>
-										</table>
-										</td>
-									</tr>
-									<tr>
-										<td>&nbsp;</td>
-									</tr>
-								</table>
-								</div>
-							</li>
-							<li>
-								<span><b>Datos de Cuenta</b></span>
-								<div>
-								<table>
-									<tr>
-										<td>&nbsp;</td>
-									</tr>
-									<tr>
-										<td>
-										<table>
-											<tr>
-                                                <td style="width:16%;">
-                                                <label for="txtemail" class="textCaption-2">Correo Electrónico:</label>
-                                                </td>
-                                                <td style="width:84%;">
-                                                <input type="text" id="txtemail" name="txtemail" maxlength="50" style="width:95%;" class="form-control" />
-                                                </td>
-											</tr>
-										</table>
-										</td>
-									</tr>
-									<tr>
-										<td>&nbsp;</td>
-									</tr>
-								</table>
-								</div>
-							</li>
-						</ul>
-						</form>
-						<div>
+						<div id="vcontainerSeccionControls">
+							<form id="vperfil" name="vperfil" method="post" onSubmit="return false;" style="padding:0; margin:0">
+							<ul id="pnbrperfil">
+								<li class="k-state-active">
+									<span class="k-link k-state-selected"><b>Datos Personales</b></span>
+                	               	<table>
+										<tr>
+											<td>&nbsp;</td>
+										</tr>
+										<tr>
+											<td>
+											<table>
+												<tr>
+                                                	<td style="width:16%;">
+	                                                <label for="txtname" class="textCaption-2">Nombre:</label>
+    	                                            </td>
+        	                                        <td style="width:84%;">
+            	                                    <input type="text" id="txtname" name="txtname" maxlength="30" style="width:95%;" class="form-control" />
+                	                                </td>
+												</tr>
+											</table>
+											</td>
+										</tr>
+										<tr>
+											<td>
+											<table>
+												<tr>
+        	                                        <td style="width:16%;">
+            	                                    <label for="txtfirstName" class="textCaption-2">Apellido Paterno:</label>
+                	                                </td>
+                    	                            <td style="width:84%;">
+                        	                        <input type="text" id="txtfirstName" name="txtfirstName" maxlength="30" style="width:95%;" class="form-control" />
+                            	                    </td>
+												</tr>
+											</table>
+											</td>
+										</tr>
+										<tr>
+											<td>
+											<table>
+												<tr>
+                    	                            <td style="width:16%;">
+                        	                        <label for="txtlastName" class="textCaption-2">Apellido Materno:</label>
+                            	                    </td>
+                                	                <td style="width:84%;">
+                                    	            <input type="text" id="txtlastName" name="txtlastName" maxlength="30" style="width:95%;" class="form-control" />
+                                        	        </td>
+												</tr>
+											</table>
+											</td>
+										</tr>
+										<tr>
+											<td>&nbsp;</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<span><b>Datos del Centro de Trabajo</b></span>
+									<div>
+									<table>
+										<tr>
+											<td>&nbsp;</td>
+										</tr>
+										<tr>
+											<td>
+											<table>
+												<tr>
+	                                                <td style="width:16%;">
+    	                                            <label for="txtjob" class="textCaption-2">Puesto:</label>
+        	                                        </td>
+            	                                    <td style="width:84%;">
+                	                                <input type="text" id="txtjob" name="txtjob" maxlength="80" style="width:95%;" class="form-control" />
+                    	                            </td>
+												</tr>
+											</table>
+											</td>
+										</tr>
+										<tr>
+											<td>&nbsp;</td>
+										</tr>
+									</table>
+									</div>
+								</li>
+								<li>
+									<span><b>Datos de Cuenta</b></span>
+									<div>
+									<table>
+										<tr>
+											<td>&nbsp;</td>
+										</tr>
+										<tr>
+											<td>
+											<table>
+												<tr>
+                                	                <td style="width:16%;">
+                                    	            <label for="txtemail" class="textCaption-2">Correo Electrónico:</label>
+                                        	        </td>
+	                                                <td style="width:84%;">
+    	                                            <input type="text" id="txtemail" name="txtemail" maxlength="50" style="width:95%;" class="form-control" />
+        	                                        </td>
+												</tr>
+											</table>
+											</td>
+										</tr>
+										<tr>
+											<td>&nbsp;</td>
+										</tr>
+									</table>
+									</div>
+								</li>
+							</ul>
+							</form>
+						</div>
+						<div id="vcontainerSeccionActions">
 							<table>
 								<tr>
-									<td style="width:95%;">
-									<button id="cmdpassword" class="k-button glyphicon glyphicon-camera" type="button">contraseña</button>
+									<td style="width:95%; text-align:left">
+									<button id="cmdpassword" class="k-button" type="button">Contraseña</button>
 									</td>
 									<td style="width:5%; text-align:right">
-                                    <button id="cmdsave" class="k-button"></button>
+                                    <button id="cmdsave" class="k-button">Guardar</button>
 									</td>
 								</tr>
 							</table>
