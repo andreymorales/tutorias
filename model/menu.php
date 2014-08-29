@@ -12,8 +12,8 @@ if( isset($_SESSION['idUser']) ){
 	$vuser->idUser=trim($_SESSION['idUser']);
 	$vuser->queryToDataBase();
 	switch ( $vuser->userType->idUserType ){
-		case 1:	$vmenu_content.='<li id="vmenu-mi-perfil"><a href="./frmmi-perfil.php">Mi Perfil</a></li>';
-				$vmenu_content.='<li id="vmenu-mi-coordinador"><a href="./frmmi-coordinador.php">Mi Coordinador</a></li>';
+		case 1:	$vmenu_content.='<li id="vmenu-mi-perfil-DGIP"><a href="./frmmi-perfil-DGIP.php">Mi Perfil</a></li>';
+				$vmenu_content.='<li id="vmenu-mis-coordinadores"><a href="./frmmis-coordinadores.php">Mis Coordinadores</a></li>';
 				$vuserIdentified=true;
 				break;
 		/*case 2:	$vmenu_content.='<li id="vuser-update"><a href="./frmuser-record.php?vaction=2">Mis datos</a></li>

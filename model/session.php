@@ -13,7 +13,7 @@
 						<span style="font-weight:bold; font-style:italic;">NOMBRE DE USUARIO</span> Y 
 						<span style="font-weight:bold; font-style:italic;">CONTRASEÑA</span> VÁLIDOS.
 					</p>
-					<p><a href="frmaccess.php" target="_parent">REGISTRO.</a></p>
+					<p><a href="frmlogin.php" target="_parent">REGISTRO.</a></p>
 					</td>
           		</tr>
 			 </table>');
@@ -34,7 +34,7 @@
 							<span style="font-weight:bold; font-style:italic;">NOMBRE DE USUARIO</span> Y 
 							<span style="font-weight:bold; font-style:italic;">CONTRASEÑA</span> VÁLIDOS.
 						</p>
-						<p><a href="frmaccess.php" target="_parent">REGISTRO.</a></p>
+						<p><a href="frmlogin.php" target="_parent">REGISTRO.</a></p>
 						</td>
     	      		</tr>
 				 </table>');

@@ -9,7 +9,7 @@ table {
 	width: 100%;
  }
 table td {
-	text-align:right;
+	text-align:left;
 	vertical-align:middle;
 	padding:1px 1px 1px 1px;
 	width:100%;
@@ -17,19 +17,19 @@ table td {
 
 input[type="text"]{
 	height:20px;
-}
+ }
 
 .container{
 	width: auto;
 	max-width: 790px;
 	height: auto !important;
-  }
-
+ }
 .textCaption-1{
 	font-size:14px;
 	font-weight:bold;
  }
 .textCaption-2{
+	text-align:right;
 	font-size:12px;
 	font-weight:bold;
 	padding-right:5px;

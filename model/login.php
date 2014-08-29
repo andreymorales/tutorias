@@ -27,9 +27,9 @@ function login($vloginForm)
 				 $vuser->queryToDataBase();
 				 $_SESSION['idUser']=$vuser->idUser;
 				 if ( $vuser->userType->idUserType==1 )
-				  {	$vresponse->redirect("./frmmi-perfil.php");	}
+				  {	$vresponse->redirect("./frmmi-perfil-DGIP.php");	}
 				 else if( $vuser->userType->idUserType==2 )
-				  {	$vresponse->redirect("./frmquestionnaire-topic.php?vtype=1");	}
+				  {	$vresponse->redirect("./frm.php?vtype=1");	}
 				 break;
 	 }
 	unset($vloginForm, $vuser);
