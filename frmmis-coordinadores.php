@@ -136,16 +136,16 @@
 									<table>
 										<tr>
 											<td style="width:5%;">
-											<button id="cmdnew" class="k-button" type="button"><span class="k-icon k-i-plus"></span></button>
+											<button id="cmdnew" class="k-button" type="button" onClick="mostrarRegistroCoordinador(1);"><span class="k-icon k-i-plus"></span></button>
 											</td>
 											<td style="width:5%;">
-											<button id="cmdupdate" class="k-button" type="button"><span class="k-icon k-i-pencil"></span></button>
+											<button id="cmdupdate" class="k-button" type="button" onClick="mostrarRegistroCoordinador(2);"><span class="k-icon k-i-pencil"></span></button>
 											</td>
 											<td style="width:5%;">
 											<button id="cmddelete" class="k-button" type="button"><span class="k-icon k-i-cancel"></span></button>
 											</td>
 											<td style="width:85%; text-align:right">
-											<button id="cmdfilter" class="k-button"><span class="k-icon k-i-search"></span></button>
+											<button id="cmdfilter" class="k-button" onClick="mostrarCoordinador();"><span class="k-icon k-i-search"></span></button>
 											</td>
 										</tr>
 									</table>

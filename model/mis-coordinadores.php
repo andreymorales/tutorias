@@ -53,7 +53,7 @@ function showProgramList()
 	/*$vquestionnaires= new clscQuestionnaire();
 	$vquestionnaires->queryToDataBase("");*/
 	
-	$vJSON='[{"text":"Todos", "value":"0"}';
+	$vJSON='[{"text":"--Todos--", "value":"0"}';
 	$vJSON.=', {"text":"Maestría en Administración, Formación en TICs", "value":"1"}';
 	/*for ($vi=0; $vi<$vquestionnaires->getTotal(); $vi++)
 	 {	$vJSON.=', {"text":"' . $vquestionnaires->questionnaires[$vi]->questionnaire . '", "value":"' . $vquestionnaires->questionnaires[$vi]->idQuestionnaire . '"}';	}*/

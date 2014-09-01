@@ -1,6 +1,7 @@
 var cmbHeadquarter;
 var cmbLevel;
 var cmbProgram;
+var vidCoordinador=1;
 
 function _default()
  {
@@ -101,4 +102,17 @@ function setCoordinatorList()
 				  			   }
 				  }]
 	});
+ }
+
+function mostrarRegistroCoordinador(vtipoAccion)
+ {	
+ 	if( vtipoAccion==1 ){	
+		vidCoordinador=0;
+	}
+	location.href="./frmmis-coordinadores-registro.php?vidCoordinador=" + vidCoordinador;
+ }
+
+function mostrarCoordinador()
+ {	
+	location.href="./frmmis-coordinadores-ver.php?vidCoordinador=" + vidCoordinador;
  }
